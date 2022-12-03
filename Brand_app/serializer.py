@@ -2,7 +2,6 @@ from rest_framework import serializers
 
 from .models import Brand, Brand_PO, Document
 
-
 class Brand_serializer(serializers.ModelSerializer):
     class Meta:
         model = Brand
