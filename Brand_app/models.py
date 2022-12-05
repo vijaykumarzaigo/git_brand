@@ -4,6 +4,7 @@ import uuid
 from django.utils import timezone
 
 
+
 class Brand(models.Model):
     id = models.UUIDField(
         primary_key=True,

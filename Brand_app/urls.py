@@ -12,3 +12,4 @@ router.register('brand_documents',brand_documents)
 urlpatterns=[
     path('',include(router.urls))
 ]
+

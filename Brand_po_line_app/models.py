@@ -3,6 +3,7 @@ import uuid
 
 # from djangoproject.Brand_app.models import Brand
 
+
 class Po_line_item(models.Model):
     id = models.UUIDField(
         primary_key=True,
